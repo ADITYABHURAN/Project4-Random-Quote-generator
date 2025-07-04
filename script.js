@@ -41,7 +41,7 @@ function generateRandomQuote() {
         alert("All quotes have been displayed. Starting over!");
     }
 
-    const randomIndex = Math.floor(Math.random() * unusedQuotes.length);
+    const randomIndex = Math.floor(Math.random() * unusedQuotes.length); //math.random generates  a random number between 0 and 1 but multiplying it with unusedquotes.length gives the values between 1 to 8/9 so thats how it selects .
     const quote = unusedQuotes[randomIndex];
 
     quoteElement.innerText = quote;
