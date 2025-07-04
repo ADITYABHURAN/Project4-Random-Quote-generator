@@ -25,8 +25,9 @@ const quotes = [
   "The future depends on what you do today. – Mahatma Gandhi",
   "Don’t limit your challenges. Challenge your limits. – Jerry Dunn"
 ];
-
+//fetched ids from html 
 const quoteElement = document.getElementById('quote');
+const authorElement = document.getElementById('author');
 const generateQuote = document.getElementById('generate-quote');
 
 // Make a copy of quotes array to track unused quotes
