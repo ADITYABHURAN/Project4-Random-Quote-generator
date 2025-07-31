@@ -32,7 +32,7 @@ const generateQuote = document.getElementById('generate-quote');
 
 // Make a copy of quotes array to track unused quotes
 let unusedQuotes = [...quotes];
-
+//Aditya B
 function generateRandomQuote() {
     if (unusedQuotes.length === 0) {
         // Optional: Reset the unusedQuotes array once all quotes are shown
